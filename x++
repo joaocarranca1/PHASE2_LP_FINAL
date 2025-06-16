@@ -1,0 +1,11 @@
+#!/bin/bash
+# filepath: c:\Users\joaoc\Downloads\PHASE_2_FINAL\x++
+
+# Check if file argument is provided
+if [ $# -eq 0 ]; then
+    # No arguments - run in interactive mode
+    java L0int
+else
+    # File argument provided - run the file
+    java L0int "$1"
+fi

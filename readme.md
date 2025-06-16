@@ -20,6 +20,7 @@ Program also makes use of subtyping.
    rm *.class
    javacc ParserL0.jj
    javac *.java
+   chmod +x x++
 
 2. ## RUN
 
