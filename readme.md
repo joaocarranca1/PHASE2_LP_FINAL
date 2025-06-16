@@ -1,16 +1,18 @@
 # L1++ Language Interpreter
 
-A parser and interpreter for the L1 functional programming language with strict/lazy list support.
+A parser and interpreter for the X++ functional programming language with typechecking and recursion.
 
 ## Features
 
 - **Parser**: JavaCC-based syntax analysis
-- **Interpreter**: Evaluates expressions with:
-  - Boxes (mutable references)
-  - Strict lists (`::`) and lazy lists (`:?`)
-  - Pattern matching (`match`)
-  - First-class functions
-
+- **Interpreter**: Evaluates and typechecks expressions with:
+  -unions
+  -structs
+  -Lists
+  -Recursion 
+  -More basic expressions 
+Program also makes use of subtyping.
+  - 
 ## Quick Start
 
 1. **Build**:
