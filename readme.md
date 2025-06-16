@@ -1,4 +1,4 @@
-# L1++ Language Interpreter
+# X++ Language Interpreter
 
 A parser and interpreter for the X++ functional programming language with typechecking and recursion.
 
